@@ -1,0 +1,18 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <option name="myLocal" value="true" />
+    <inspection_tool class="SSBasedInspection" enabled="true" level="ERROR" enabled_by_default="true">
+      <replaceConfiguration name="STRINGS" text="&lt;string name=“$name$” traslation_description=“$desc$“&gt;$text$&lt;/string&gt;" recursive="false" caseInsensitive="true" type="JAVA" reformatAccordingToStyle="true" shortenFQN="true" useStaticImport="true" replacement="&lt;string name=“$name$”&gt;$text$&lt;/string&gt;">
+        <constraint name="name" within="" contains="" />
+        <constraint name="desc" within="" contains="" />
+        <constraint name="text" within="" contains="" />
+      </replaceConfiguration>
+      <searchConfiguration name="駄目ですよ" text="&lt;string name=“$name$” traslation_description=“$desc$“&gt;$text$&lt;/string&gt;" recursive="true" caseInsensitive="true" type="JAVA">
+        <constraint name="name" within="" contains="" />
+        <constraint name="desc" within="" contains="" />
+        <constraint name="text" within="" contains="" />
+      </searchConfiguration>
+    </inspection_tool>
+  </profile>
+</component>
